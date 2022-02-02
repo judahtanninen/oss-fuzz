@@ -33,4 +33,3 @@ rm -rf "$GOPATH/"
 mkdir -p "$GOPATH/"
 go install github.com/mdempsky/go114-fuzz-build@latest
 ln -s "$GOPATH/bin/go114-fuzz-build" "$GOPATH/bin/go-fuzz"
-
